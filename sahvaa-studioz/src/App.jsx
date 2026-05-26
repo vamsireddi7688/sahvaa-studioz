@@ -9,7 +9,6 @@ import Reels from "./components/Reels"
 import FAQ from "./components/FAQ"
 import Map from "./components/Map"
 import Contact from "./components/Contact"
-import Whatsapp from "./components/Whatsapp"
 import Footer from "./components/Footer"
 
 function App() {

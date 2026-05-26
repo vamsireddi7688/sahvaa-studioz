@@ -1,65 +1,44 @@
 export default function About() {
   return (
-    <section
+    <div
       id="about"
       style={{
         padding: "100px 20px",
         background: "#0a0a0a",
+        color: "white",
+        textAlign: "center",
       }}
     >
-      <div
+      <h1
         style={{
-          width: "90%",
-          maxWidth: "1200px",
-          margin: "auto",
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          gap: "50px",
-          alignItems: "center",
+          fontSize: "50px",
+          color: "#d4af37",
+          marginBottom: "30px",
         }}
       >
-        <img
-          src="https://images.unsplash.com/photo-1519741497674-611481863552"
-          alt=""
-          style={{
-            width: "100%",
-            borderRadius: "20px",
-            height: "500px",
-            objectFit: "cover",
-          }}
-        />
+        About Sahvaa Studioz
+      </h1>
 
-        <div>
-          <h2
-            style={{
-              fontSize: "50px",
-              color: "#d4af37",
-              marginBottom: "20px",
-            }}
-          >
-            About Sahvaa Studioz
-          </h2>
+      <p
+        style={{
+          maxWidth: "900px",
+          margin: "auto",
+          fontSize: "20px",
+          lineHeight: "1.8",
+          color: "#ccc",
+        }}
+      >
+        Sahvaa Studioz captures timeless emotions,
+        traditions, and unforgettable celebrations
+        through cinematic photography and storytelling.
 
-          <p
-            style={{
-              fontSize: "20px",
-              lineHeight: "1.8",
-              color: "#ccc",
-            }}
-          >
-            We capture timeless emotions, traditions,
-            and unforgettable celebrations through
-            cinematic photography and storytelling.
+        We specialize in weddings, traditional events,
+        birthday celebrations, engagement shoots,
+        pre-wedding sessions, and luxury cinematic films.
 
-            Sahvaa Studioz specializes in weddings,
-            traditional events, birthday celebrations,
-            engagement shoots, and luxury cinematic films.
-
-            Every frame is crafted with emotion,
-            elegance, and artistic excellence.
-          </p>
-        </div>
-      </div>
-    </section>
+        Every frame is crafted with elegance,
+        creativity, and emotional excellence.
+      </p>
+    </div>
   )
 }
