@@ -17,7 +17,8 @@ export default function Whatsapp() {
         alignItems: "center",
         fontSize: "30px",
         textDecoration: "none",
-        zIndex: "999",
+        zIndex: 999,
+        boxShadow: "0 5px 20px rgba(0,0,0,0.3)",
       }}
     >
       💬
